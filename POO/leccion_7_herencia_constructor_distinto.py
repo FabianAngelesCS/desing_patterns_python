@@ -9,7 +9,7 @@ class Movies: # Definiciòn del nombre de la clase
     def print_data_movie(self): # Mètodo público de la isntancia para que imprime mensaje
         print(f"Hello, the name of movie is {self.name} from year {self.year}.")
 
-# definiciòn de la clase padre que hereda de Movies
+# definiciòn de la clase hija que hereda de Movies
 class Critica(Movies): # Se define la herencia añadiendo la relacion entre la clase hija y la padre.
 
     # Definiciòn del constructor de la case hija
@@ -17,7 +17,7 @@ class Critica(Movies): # Se define la herencia añadiendo la relacion entre la c
         # Lamada del constructor de la clase padre para inicializar los atributos
         super().__init__(name, year) # Hereda e inicializa los atributos "name" y "year"
 
-        # Atrbuto propio de la clase "Critica"
+        # Atributo propio de la clase "Critica"
         self.name_critico = name_critico
 
 # Creación de una instancia de la clase hija 'Critica'
