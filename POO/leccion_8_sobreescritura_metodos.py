@@ -9,7 +9,7 @@ class Person: #Definiciòn del nombre de la clase.
         print(f"Hello, {self.name} is this a class in python") #Mensaje personalizado
 
 
-#Definicion de clase hija que hereda de la clase "Person"
+# Definiciòn de clase hija que hereda de la clase "Person"
 class Profesion(Person): # "Profesion" hereda atributos y métodos de "Person"
 
     def __init__(self, name, profesion):
@@ -23,4 +23,4 @@ class Profesion(Person): # "Profesion" hereda atributos y métodos de "Person"
 
 # Instancia de la clase hija
 fabian = Profesion("Fabian", "Developer")
-fabian.saludo() # Llmado del mètodo de la clase hija.
+fabian.saludo() # Llamado del mètodo de la clase hija.
